@@ -22,40 +22,54 @@ Gems (Ruby package manager)
 ## 📦 Installation Instructions
 
 1. Clone the Repository
+
 git clone https://github.com/Ironious4/Grade-Calculator.git
+
 cd grade-calculator
 
+
 2. Install Ruby and Gem
+
 Check if Ruby is installed:
+
 ruby -v
 
 Install Ruby (if missing):
+
 Windows RubyInstaller
 
 macOS:
+
 brew install ruby
 
 Linux:
+
 sudo apt install ruby-full
 
 Verify gem is installed:
+
 gem -v
 
 3. Install RSpec
+
 gem install rspec
 
 
 ## 🚀 Usage Examples
 Run the Program
+
 ruby grades.rb
 
 ## Example interaction:
 Enter student marks (0-100) or type 'exit' to quit: 95
 Grade: A
+
 Enter student marks (0-100) or type 'exit' to quit: hello
 Grade: F
+
 Enter student marks (0-100) or type 'exit' to quit: 120
 Invalid input! Please enter a number between 0 and 100.
+
 Enter student marks (0-100) or type 'exit' to quit: exit
 
 
@@ -63,6 +77,7 @@ Enter student marks (0-100) or type 'exit' to quit: exit
 rspec grades_spec.rb
 
 or run all tests:
+
 rspec
 
 
@@ -82,18 +97,23 @@ Exit keyword: Currently set to "exit" (case-insensitive).
 
 ## 🛠️ Troubleshooting
 Problem: undefined method 'chomp' for nil
+
 Cause: Running rspec grades.rb instead of the test file.
 
 Solution: Use:
+
 rspec grades_spec.rb
 
 Problem: command not found: rspec
+
 Cause: RSpec gem not installed.
 
 Solution: Install it:
+
 gem install rspec
 
 Problem: Ruby not recognized
+
 Cause: Ruby not installed or not added to PATH.
 
 Solution: Reinstall Ruby and ensure “Add Ruby to PATH” is checked (Windows) or add manually.
@@ -104,11 +124,15 @@ We welcome contributions! To contribute:
 Fork the repository.
 
 Create a new branch for your feature:
+
 git checkout -b feature-name
 
 Commit your changes and push:
+
 git commit -m "Added new feature"
+
 git push origin feature-name
+
 Submit a Pull Request with a detailed explanation.
 
 ## 📜 License
@@ -127,4 +151,4 @@ Ruby/
 
 │── grades.rb         # Main CLI program with grade calculation
 
-│── README.md          # Project documentation
+│── README.md          # Project documentation   
