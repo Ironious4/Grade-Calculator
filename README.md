@@ -22,12 +22,13 @@ Gems (Ruby package manager)
 ## 📦 Installation Instructions
 
 1. Clone the Repository
-git clone https://github.com/your-username/grade-calculator.git
+git clone https://github.com/Ironious4/Grade-Calculator.git
 cd grade-calculator
 
 2. Install Ruby and Gem
 Check if Ruby is installed:
 ruby -v
+
 Install Ruby (if missing):
 Windows RubyInstaller
 
@@ -116,9 +117,14 @@ You are free to use, modify, and distribute this software with proper attributio
 
 
 ## 📂 Code Structure Overview
-grade-calculator/
+Ruby/
+
 │── Gemfile         # Ruby dependencies(RSpec)     
+
 │── Gemfile.lock     # Locked dependencies for reproducibility
+
 │── grades_spec.rb    # RSpec test suite  
+
 │── grades.rb         # Main CLI program with grade calculation
+
 │── README.md          # Project documentation
